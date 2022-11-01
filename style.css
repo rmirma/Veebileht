@@ -1,0 +1,13 @@
+h1 {
+    color: firebrick;
+    font-family:'Courier New', Courier, monospace;
+    font-size: xxx-large;
+}
+body {
+    background-color: lightyellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.center {
+    text-align: center;
+
+}

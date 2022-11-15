@@ -4,9 +4,7 @@ h1 {
 }
 body {
     background-image: url(https://wallpaperbat.com/img/81548-super-mario-bros-hd-wallpaper.jpg);
-    background-size: cover;
-
-    background-color: #cccccc;
+    background-size: contain;
 }
 .center {
     text-align: center;

@@ -4,13 +4,13 @@ body {
     height: 10px;
     background-size: cover;
     color: rgb(0, 0, 0);
+
 }
 h1 {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    color:rgb(255, 234, 0);
+    color:seashell;
 }
-
 .Nav {
     margin: auto;
     position:relative;
@@ -45,29 +45,4 @@ h1 {
 
 li a:hover{
     background-color: red;
-=======
-.wrapper {
-	padding: 5px;
-	max-width: 960px;
-	width: 95%;
-	margin: 20px auto;
-}
-.kastikesed{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 5px;
-}
-.kast{
-    flex:1;
-    border:1px solid rgb(253, 250, 86);
-    margin: 2px;
-    padding: 10px;
-    margin-right: 0;
-}
-
-.pilt{
-    height: 100px;
-    width: 300px;
-    
 }

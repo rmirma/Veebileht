@@ -1,9 +1,16 @@
 body {
-    background-image: url("https://img.freepik.com/premium-vector/abstract-dark-background-small-squares-pixels-shades-black-gray-colors_444390-754.jpg?w=1060");
+    background-image: url("https://wallpaperaccess.com/full/340696.jpg");
     background-size: cover;
     }
 h1 {
-    color: rgb(151, 150, 150);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 70px;
+    color: rgb(233, 202, 186);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    text-shadow: 4px 4px rgb(84, 42, 22);
+}
+.overlay {
+    background-color: black;
+}
+.text {
+color: azure;
 }

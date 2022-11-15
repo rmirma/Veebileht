@@ -1,17 +1,9 @@
 body {
-<<<<<<< Updated upstream
-    background-image: url("https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/03/PacmanHeader.jpg?q=50&fit=contain&w=1140&h=570&dpr=1.5");
-    background-size: cover;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 230, 0);
-
-=======
-    background-image: url("");
+    background-image: url("https://wallpapercave.com/wp/oDaAJfw.jpg");
     background-size: 100%;
     height: 10px;
     
     font-family: sans-serif;
->>>>>>> Stashed changes
 }
 h1 {
     font-family:'Courier New', Courier, monospace;
@@ -19,32 +11,6 @@ h1 {
     color:seashell;
 }
 
-<<<<<<< Updated upstream
-.wrapper {
-	padding: 5px;
-	max-width: 960px;
-	width: 95%;
-	margin: 20px auto;
-}
-.kastikesed{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 5px;
-}
-.kast{
-    flex:1;
-    border:1px solid rgb(253, 250, 86);
-    margin: 2px;
-    padding: 10px;
-    margin-right: 0;
-}
-
-.pilt{
-    height: 100px;
-    width: 300px;
-    
-=======
 .Nav {
     margin: auto;
     position:relative;
@@ -79,5 +45,4 @@ h1 {
 
 li a:hover{
     background-color: red;
->>>>>>> Stashed changes
 }

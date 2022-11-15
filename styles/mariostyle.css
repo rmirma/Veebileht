@@ -1,0 +1,19 @@
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+body {
+    background-image: url(https://wallpaperbat.com/img/81548-super-mario-bros-hd-wallpaper.jpg);
+    background-size: contain;
+}
+.center {
+    text-align: center;
+
+}
+.container {
+  position: relative;
+}
+.taust{
+    background-color: rgb(212, 234, 227, 0.8);color:black; padding: 50px;
+}
+

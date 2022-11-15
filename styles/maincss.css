@@ -56,3 +56,25 @@ left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
 }
+
+.navbar ul{
+    /* text-align: center; */
+    background-color: rgba(158, 210, 232, 0.5);
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    /* text-align: center; */
+    text-transform: uppercase;
+    color: rgb(25, 25, 134);
+    padding: 20px;
+    font-size: 20px;
+
+}
+.navbar a:hover{
+    background-color:rgb(168, 213, 226);
+    padding: 20px;
+}

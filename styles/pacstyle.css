@@ -1,9 +1,59 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/68/c8/12/68c812c726a6205ccf2540710a726c3e.png");
-    background-size: cover;
+    background-image: url("https://wallpapercave.com/wp/oDaAJfw.jpg");
+    background-size: contain;
+    }
+.taust{
+    background-color: rgb(212, 234, 227, 0.5);
+    color:black;
+    padding:50px;
 }
-h1 {
-    font-family:'Courier New', Courier, monospace;
-    text-align: center;
-    color:seashell;
+.youtube-player {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 5px;
+}
+
+.youtube-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent;
+}
+
+.youtube-player img {
+    object-fit: cover;
+    display: block;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    transition: 0.4s all;
+}
+
+.youtube-player .play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url('//i.imgur.com/TxzC70f.png') no-repeat;
+    cursor: pointer;
 }

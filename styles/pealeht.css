@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://wallpaperaccess.com/full/340696.jpg");
+    background-image: url("https://wallpaper.dog/large/5472302.jpg");
     background-size: cover;
     }
 h1 {
@@ -9,7 +9,7 @@ h1 {
     text-shadow: 4px 4px rgb(84, 42, 22);
 }
 .overlay {
-    background-color: black;
+    background-color: rgb(31, 82, 73);
 }
 .text {
 color: azure;

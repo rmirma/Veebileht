@@ -21,3 +21,12 @@ body {
     /* text-align: center; */
     background-color: rgb(212, 234, 227, 0.65);
 }
+
+.mäng{
+    display: block;
+    overflow: hidden}
+iframe{
+    
+    margin: -50px -50px
+    
+    }

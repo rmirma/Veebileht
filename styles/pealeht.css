@@ -14,3 +14,7 @@ h1 {
 .text {
 color: azure;
 }
+
+img {
+    width: 100%;
+    }

@@ -24,6 +24,9 @@ text-align: center;
     display:block;
     overflow: hidden;
 }
+
 iframe{
-    margin: -150px -10px
+    margin: -150px -10px;
+    height: 982px;
+    width: 850px;
 }

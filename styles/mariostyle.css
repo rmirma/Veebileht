@@ -24,10 +24,13 @@ body {
 
 .mäng{
     display: block;
-    overflow: hidden}
+    overflow: hidden
+}
 iframe{
-    
-    margin: -50px -50px
-    
-    }
+    margin: -50px -50px;
+    height: 650px;
+    width: 1000px;
+    scroll-behavior: "no";
+    overflow: hidden;
+}
 

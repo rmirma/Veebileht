@@ -1,14 +1,17 @@
-<!DOCTYPE html>
-<html>
+
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <title>Pac_Man</title>
-    <link rel="icon" href="">
+    <link rel="icon" href="https://seeklogo.com/images/P/pac-man-retro-logo-731613766E-seeklogo.com.png">
     <link rel="stylesheet" href="styles/maincss.css">
     <link rel="stylesheet" href="styles/pacstyle.css">
-    <script type="text/javascript" src="js/yt_embed.js"></script>
+    <script src="js/yt_embed.js"></script>
+    <script type="text/javascript" src="js/pac.js"></script>
 </head>
 <body>
+    <div id='game'>
+    </div>
     <div class="navbar">
         <ul>
             <li><a href="MainPage.html">Esileht</a></li>
@@ -17,10 +20,11 @@
             <li><a href="Pac-Man.html">Pac-Man</a></li>
         </ul>
     </div>
-    
+    <input type="button" onclick="makeOne()"/>
+    <input type="button" onclick="update()"/>
     <div class="taust">
-
-        <img src="https://seeklogo.com/images/P/Pac-Man-logo-1F850CB735-seeklogo.com.png" alt="Pac-Man Logo" width="200" ></img>
+        
+        <img src="https://seeklogo.com/images/P/Pac-Man-logo-1F850CB735-seeklogo.com.png" alt="Pac-Man Logo" width="200" >
         <p>Pac-Man, tuntud ka kui Puck Man - ei peaks küll kellelegi võõras mäng olema</p>
         <p>Ideepoolest väga lihtsa kontseptsiooniga mängu arendamist alustati 1979. aastal Jaapanis.</p>
         <p>Mäng on veetlev just tänu oma lihtsusele ning just tänu sellele ta ongi vastu pidanud mitmeid ja mitmeid generatsioone.</p>
@@ -46,7 +50,6 @@
                 <div class="youtube-player" data-id="AdUNYQqe18w"></div>
             </div>
         </div>
-
 
 
         <br>
@@ -87,7 +90,6 @@
                 <div class="youtube-player" data-id="Vy7q7wlHYY0"></div>
             </div>
         </div>
-    </div>
     </div>
 </body>
 </html>

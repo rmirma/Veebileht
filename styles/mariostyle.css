@@ -3,7 +3,7 @@ h1 {
     color: rgb(0, 0, 0);
 }
 body {
-    background-image: url(https://wallpaperbat.com/img/81548-super-mario-bros-hd-wallpaper.jpg);
+    background-image: url(https://i.pinimg.com/originals/8f/1a/b8/8f1ab8b14a55720d6859620a6f596933.jpg);
     background-size: contain;
 }
 .center {
@@ -14,6 +14,23 @@ body {
   position: relative;
 }
 .taust{
-    background-color: rgb(212, 234, 227, 0.8);color:black; padding: 50px;
+    background-color: rgb(212, 234, 227, 0.7);color:black; padding: 50px;
+}
+
+.navbar ul{
+    /* text-align: center; */
+    background-color: rgb(212, 234, 227, 0.65);
+}
+
+.mäng{
+    display: block;
+    overflow: hidden
+}
+iframe{
+    margin: -50px -50px;
+    height: 650px;
+    width: 1000px;
+    scroll-behavior: "no";
+    overflow: hidden;
 }
 

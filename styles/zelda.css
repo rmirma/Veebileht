@@ -2,8 +2,31 @@ body {
     background-image: url("https://images.hdqwalls.com/wallpapers/the-legend-of-zelda-nature-4k-m6.jpg");
     background-size: cover;
     }
+
+.text {
+color: rgb(30, 42, 55);
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
 .taust{
     background-color: rgb(212, 234, 227, 0.5);
     color:black;
     padding:50px;
+}
+#ab {
+    display:block;
+    overflow: hidden;
+}
+
+iframe{
+    margin: -150px -10px;
+    height: 982px;
+    width: 850px;
 }

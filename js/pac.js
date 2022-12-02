@@ -20,7 +20,7 @@ function makePac() {
     let img = document.createElement('img');
     img.style.position = 'absolute';
     img.src = 'https://ramziosta.github.io/Pacman/images/PacMan1.png';
-    img.style.width = 100;
+    img.style.width = 100 + "px";
     img.style.left = position.x + "px";
     img.style.top = position.y + "px";
     game.appendChild(img);
@@ -36,8 +36,8 @@ function update() {
         item.img.src = pacArray[item.direction][focus];
             item.position.x += item.velocity.x;
             item.position.y += item.velocity.y;
-            item.img.style.left = item.position.x;
-            item.img.style.top = item.position.y;
+            item.img.style.left = item.position.x +"px";
+            item.img.style.top = item.position.y + "px";
     });
     setTimeout(update, 125);
 }

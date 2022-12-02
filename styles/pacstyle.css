@@ -2,8 +2,19 @@ body {
     background-image: url("https://wallpapercave.com/wp/oDaAJfw.jpg");
     background-size: contain;
     }
+
+button {
+    background-color: #eff871;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
 .taust{
     background-color: rgb(212, 234, 227, 0.5);
     color:black;
     padding:50px;
 }
+

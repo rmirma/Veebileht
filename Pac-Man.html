@@ -1,93 +1,95 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Pac_Man</title>
-    <link rel="icon" href="">
-    <link rel="stylesheet" href="styles/maincss.css">
-    <link rel="stylesheet" href="styles/pacstyle.css">
-    <script type="text/javascript" src="js/yt_embed.js"></script>
-</head>
-<body>
-    <div class="navbar">
-        <ul>
-            <li><a href="MainPage.html">Esileht</a></li>
-            <li><a href="supermariobros.html">Super Mario</a></li>
-            <li><a href="zelda.html">The Legend of Zelda</a></li>
-            <li><a href="Pac-Man.html">Pac-Man</a></li>
-        </ul>
-    </div>
+<html lang="et">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pac_Man</title>
+        <link rel="icon" href="https://seeklogo.com/images/P/pac-man-retro-logo-731613766E-seeklogo.com.png">
+        <link rel="stylesheet" href="styles/maincss.css">
+        <link rel="stylesheet" href="styles/pacstyle.css">
+        <script src="js/yt_embed.js"></script>
+        <script src="js/pac.js"></script>
+    </head>
+    <body>
+        <div id='game'>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="MainPage.html">Esileht</a></li>
+                <li><a href="supermariobros.html">Super Mario</a></li>
+                <li><a href="zelda.html">The Legend of Zelda</a></li>
+                <li><a href="Pac-Man.html">Pac-Man</a></li>
+            </ul>
+        </div>
+        <input type="button" value="  " onclick="makeOne()">
+        <input type="button" value="  " onclick="update()">
+        <div class="taust">
+            
+            <img src="https://seeklogo.com/images/P/Pac-Man-logo-1F850CB735-seeklogo.com.png" alt="Pac-Man Logo" width="200" >
+            <p>Pac-Man, tuntud ka kui Puck Man - ei peaks küll kellelegi võõras mäng olema</p>
+            <p>Ideepoolest väga lihtsa kontseptsiooniga mängu arendamist alustati 1979. aastal Jaapanis.</p>
+            <p>Mäng on veetlev just tänu oma lihtsusele ning just tänu sellele ta ongi vastu pidanud mitmeid ja mitmeid generatsioone.</p>
+            <p>PS! Mängija on labürindis ning ta eesmärgiks on kõik nupukesed ära süüa, kuid samas vältides värvilisi kummitusi.</p>
+            <br>
+            <p>Proovi nostalgilist mängu nüüd isegi!</p>
     
-    <div class="taust">
-
-        <img src="https://seeklogo.com/images/P/Pac-Man-logo-1F850CB735-seeklogo.com.png" alt="Pac-Man Logo" width="200" ></img>
-        <p>Pac-Man, tuntud ka kui Puck Man - ei peaks küll kellelegi võõras mäng olema</p>
-        <p>Ideepoolest väga lihtsa kontseptsiooniga mängu arendamist alustati 1979. aastal Jaapanis.</p>
-        <p>Mäng on veetlev just tänu oma lihtsusele ning just tänu sellele ta ongi vastu pidanud mitmeid ja mitmeid generatsioone.</p>
-        <p>PS! Mängija on labürindis ning ta eesmärgiks on kõik nupukesed ära süüa, kuid samas vältides värvilisi kummitusi.</p>
-        <br>
-        <p>Proovi nostalgilist mängu nüüd isegi!</p>
-
-        <iframe src="https://bward2.github.io/pacman-js/" height="600px" width="1000px"></iframe>
-
-        <h1>PAC_MAN (1980)</h1>
-        <p>- Sellest mängust see kõik alguse saigi</p>
-        <p>- Mänguplatvormiks mängusaali masin ning seetõttu on ta ka 2D formaadis.</p>
-        <p>- Maailma esimene mäng, millel olid animeeritud vahestseenid.</p>
-        <p>- Mäng saab läbi kui jõuda level 256 juurde, pool ekraanist täitub suvaliste sümbolitega ning levelit lõpetada on võimatu.</p>
-        <div class="row">
-            <div class="column">
-                <div class="youtube-player" data-id="HcR-R1aX9C0"></div>
+            <iframe src="https://bward2.github.io/pacman-js/" height="600" width="1000"></iframe>
+    
+            <h1>PAC_MAN (1980)</h1>
+            <p>- Sellest mängust see kõik alguse saigi</p>
+            <p>- Mänguplatvormiks mängusaali masin ning seetõttu on ta ka 2D formaadis.</p>
+            <p>- Maailma esimene mäng, millel olid animeeritud vahestseenid.</p>
+            <p>- Mäng saab läbi kui jõuda level 256 juurde, pool ekraanist täitub suvaliste sümbolitega ning levelit lõpetada on võimatu.</p>
+            <div class="row">
+                <div class="column">
+                    <div class="youtube-player" data-id="HcR-R1aX9C0"></div>
+                </div>
+                <div class="column">
+                    <div class="youtube-player" data-id="-CbyAk3Sn9I"></div>
+                </div>
+                <div class="column">
+                    <div class="youtube-player" data-id="AdUNYQqe18w"></div>
+                </div>
             </div>
-            <div class="column">
-                <div class="youtube-player" data-id="-CbyAk3Sn9I"></div>
+    
+    
+            <br>
+            <h1>Pac-Man World (1999)</h1>
+            <p>- Loodud tähistamaks originaalmängu 20ndat aastapäeva.</p>
+            <p>- Toimus mänguplatvormide suhtes vahetus. Mäng oli mängitav konsoolidel PlayStation ja Game Boy Advance</p>
+            <p>- Kuid kõige märgatavamaks muutuseks oli hoopiski mängu formaat - esimene 3D Pac-Man mäng.</p>
+            <p>- Aastal 2022 tehti just sellest mängust ka uuem versioon - Pac-Man World Re-Pac </p>
+            <div class="row">
+                <div class="column">
+                    <div class="youtube-player" data-id="IwLnlWACzzs"></div>
+                </div>
+                <div class="column">
+                    <div class="youtube-player" data-id="MUWuDSxTKZU"></div>
+                </div>
+                <div class="column">
+                    <div class="youtube-player" data-id="j_SgOs8vkFE"></div>
+                </div>         
             </div>
-            <div class="column">
-                <div class="youtube-player" data-id="AdUNYQqe18w"></div>
-            </div>
-        </div>
-
-
-
-        <br>
-        <h1>Pac-Man World (1999)</h1>
-        <p>- Loodud tähistamaks originaalmängu 20ndat aastapäeva.</p>
-        <p>- Toimus mänguplatvormide suhtes vahetus. Mäng oli mängitav konsoolidel PlayStation ja Game Boy Advance</p>
-        <p>- Kuid kõige märgatavamaks muutuseks oli hoopiski mängu formaat - esimene 3D Pac-Man mäng.</p>
-        <p>- Aastal 2022 tehti just sellest mängust ka uuem versioon - Pac-Man World Re-Pac </p>
-        <div class="row">
-            <div class="column">
-                <div class="youtube-player" data-id="IwLnlWACzzs"></div>
-            </div>
-            <div class="column">
-                <div class="youtube-player" data-id="MUWuDSxTKZU"></div>
-            </div>
-            <div class="column">
-                <div class="youtube-player" data-id="j_SgOs8vkFE"></div>
-            </div>         
-        </div>
-
-
-
-        <br>
-        <h1>Pac-Man Championship Edition DX (2010)</h1>
-        <p>- Muidugi ei saa ka mainimata jätta ka mängu meistrivõistlusteversiooni.</p>
-        <p>- Mänguplatvormideks PC/PS3/Xbox 360/iOS/Android/Windows Phone.</p>
-        <p>- Kriitikute poolt tunnustatud kui kõige parem originaalmängu taaslooming.</p>
-        <p>- Mängu teeb põnevaks just kontseptsioon, milles kavalad riskid võivad eriti magusalt ka premeerida.</p>
-
-        <div class="row">
-            <div class="column">
-                <div class="youtube-player" data-id="0bRTVk5ckYo"></div>
-            </div>
-            <div class="column">
-               <div class="youtube-player" data-id="J0wHF99C3EM"></div>
-            </div>
-            <div class="column">
-                <div class="youtube-player" data-id="Vy7q7wlHYY0"></div>
+    
+    
+    
+            <br>
+            <h1>Pac-Man Championship Edition DX (2010)</h1>
+            <p>- Muidugi ei saa ka mainimata jätta ka mängu meistrivõistlusteversiooni.</p>
+            <p>- Mänguplatvormideks PC/PS3/Xbox 360/iOS/Android/Windows Phone.</p>
+            <p>- Kriitikute poolt tunnustatud kui kõige parem originaalmängu taaslooming.</p>
+            <p>- Mängu teeb põnevaks just kontseptsioon, milles kavalad riskid võivad eriti magusalt ka premeerida.</p>
+    
+            <div class="row">
+                <div class="column">
+                    <div class="youtube-player" data-id="0bRTVk5ckYo"></div>
+                </div>
+                <div class="column">
+                   <div class="youtube-player" data-id="J0wHF99C3EM"></div>
+                </div>
+                <div class="column">
+                    <div class="youtube-player" data-id="Vy7q7wlHYY0"></div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-</body>
-</html>
+    </body>
+    </html>

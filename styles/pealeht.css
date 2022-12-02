@@ -1,16 +1,20 @@
 body {
-    background-image: url("https://wallpaperaccess.com/full/340696.jpg");
+    background-image: url(https://cdn.shopify.com/s/files/1/0069/3465/9162/articles/Header_for_video_games.original_f4f7185e-29ef-428f-90ad-af424e9d0d7f_1024x.jpg?v=1637773103&fbclid=IwAR0NBftBecd-zSTfdzcjmn44mrTV6FWn8NpfpD_xoYuOFA8jPDdpC-yuSR0);
     background-size: cover;
     }
 h1 {
     color: rgb(233, 202, 186);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 65px;
+    font-size: 35px;
     text-shadow: 4px 4px rgb(84, 42, 22);
 }
 .overlay {
-    background-color: black;
+    background-color: rgb(31, 82, 73);
 }
 .text {
 color: azure;
 }
+
+img {
+    width: 100%;
+    }

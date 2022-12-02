@@ -3,7 +3,7 @@ body {
     background-size: contain;
     }
 
-button {
+input {
     background-color: #eff871;
     border-radius: 8px;
     color: #000000;
@@ -17,4 +17,3 @@ button {
     color:black;
     padding:50px;
 }
-

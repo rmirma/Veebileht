@@ -32,3 +32,12 @@ iframe{
     width: 850px;
 }
 
+.youtube-player iframe {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent;
+}

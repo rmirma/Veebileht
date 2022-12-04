@@ -3,7 +3,7 @@
          * Credit: https://www.labnol.org/
          */
       
-        function labnolIframe(div) {
+        function labnolIframe(div) { // Funktsioon teeb valmis video kastikese ja hoolitseb selle eest et ta olemas oleks
             var iframe = document.createElement('iframe');
             iframe.setAttribute('src', 'https://www.youtube.com/embed/' + div.dataset.id + '?autoplay=1&rel=0');
             iframe.setAttribute('frameborder', '0');
@@ -12,7 +12,7 @@
             div.parentNode.replaceChild(iframe, div);
           }
         
-          function initYouTubeVideos() {
+          function initYouTubeVideos() { // Funktsioon, mis vastutab selle eest, et video ka käima läheks
             var playerElements = document.getElementsByClassName('youtube-player');
             for (var n = 0; n < playerElements.length; n++) {
               var videoId = playerElements[n].dataset.id;
